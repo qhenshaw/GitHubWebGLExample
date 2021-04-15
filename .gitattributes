@@ -151,7 +151,7 @@ AKSoundEngine lfs
 *.bank lfs
 
 # special case tracking for WebGL builds + GitHub pages + LFS
-docs/**/*.png -lfs
+Assets/**/*.png lfs
 docs/**/*.ico -lfs
 docs/**/*.data -lfs
 docs/**/*.wasm -lfs
