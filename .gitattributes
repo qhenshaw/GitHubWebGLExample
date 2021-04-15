@@ -68,8 +68,6 @@ Assets/**/*[Ll]ighting*.asset -unityyaml lfs
 *.spp lfs
 *.zpr lfs
 *.ZPR lfs
-# *.png lfs
-*.ico lfs
 
 # Audio
 *.mp3 lfs
@@ -120,8 +118,6 @@ Assets/**/*[Ll]ighting*.asset -unityyaml lfs
 *.la lfs
 *.lai lfs
 *.lib lfs
-*.data lfs
-*.wasm lfs
 
 # Packaging
 *.zip lfs
@@ -152,6 +148,6 @@ AKSoundEngine lfs
 
 # special case tracking for WebGL builds + GitHub pages + LFS
 Assets/**/*.png lfs
-docs/**/*.ico -lfs
-docs/**/*.data -lfs
-docs/**/*.wasm -lfs
+Assets/**/*.ico lfs
+Assets/**/*.data lfs
+Assets/**/*.wasm lfs
