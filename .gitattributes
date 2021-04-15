@@ -68,7 +68,7 @@ Assets/**/*[Ll]ighting*.asset -unityyaml lfs
 *.spp lfs
 *.zpr lfs
 *.ZPR lfs
-*.png lfs
+# *.png lfs
 *.ico lfs
 
 # Audio
